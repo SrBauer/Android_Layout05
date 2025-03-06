@@ -78,7 +78,7 @@ fun CategoryItem(title: String, icon: Int, modifier: Modifier = Modifier) {
         modifier = modifier
             .aspectRatio(1f)
             .background(Color(0xFF607D8B), shape = RoundedCornerShape(8.dp))
-            .clickable { /* Adicionar ação aqui */ }
+            .clickable {  }
             .padding(16.dp)
     ) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
