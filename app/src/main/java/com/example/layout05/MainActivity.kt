@@ -35,7 +35,7 @@ fun CategoryScreen() {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color(0xFF78909C)) // Cor do fundo
+            .background(Color(0xFF78909C))
             .padding(8.dp)
     ) {
         TopAppBar(
@@ -45,8 +45,6 @@ fun CategoryScreen() {
             ),
             modifier = Modifier.fillMaxWidth()
         )
-
-
 
         Spacer(modifier = Modifier.height(16.dp))
 
